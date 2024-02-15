@@ -1,0 +1,38 @@
+﻿Data Types , Casting  and  Keyword
+                           ASSIGNMENT
+Q 1.  What are Primitive Data types in Java?
+  Ans. byte, short, char, int, long ,float, double, String,               boolean.
+Q 2. What are the Identifiers in Java?
+Ans. Identifiers are the name which  is used to identify function , variable,class,packages etc in java.It basically refers the name of memory by which name the value is stored. It can not be reserve words.
+Q 3. What is final class in Java?
+Ans.A class is declared final by using final keyword.A final class is not inherited by other class it restrict other class to inherit its features.
+Q 4. What are the two  ways to make a class final?
+Ans.The one ways to make class final by using final keyword with class the other ways to make all constructor private which restricted other class to use their methods.
+Q 5 Can we create an instance of final class in another class?
+Ans.Yes ,we can create instance of final class in another class but we can not inherit the class.
+Q 6. What is Volatile keyword used for ?
+Ans A volatile keyword is used to mark java variable to being stored in main memory , that is not stored in CPU cache.In this way all thread acces same variable for volatile variable.
+Q 7  What is the use of Transient Keyword ?
+Ans It is used to avoid serialization.
+Q 8. What are the types of casting?
+Ans There are two types of casting.
+  Widening typecasting: It is done automatically by JVM which  it is implicit conversion convert small datatype to larger.
+ short a=12;
+int b=a;
+Narrowing casting : It is used to convert larger datatype to smaller. It is explicit conversion.
+  Int a=9;
+Float b=(float)a;
+Q 9 . What is boxing and unboxing?
+ Ans Boxing: The conversion of primitive data type into its equivalent wrapper class in known as boxing.
+   int a=18;
+Integer b=new Integer(a);
+Unboxing: The conversion of equivalent wrapper class into its primitive data type is known as unboxing.
+Integer b=new Integer (23);
+int a=b;
+Q 10 What is the difference between keywords, identifiers and literals in java ?
+Ans  Keywords are the reserved words that have a pre defined meaning for the compiler and hence are restricted to be used as identifiers. 
+ Identifiers are the name assigned to different programming constructs like classes, interfaces, methods , variables etc. 
+  Literals are the values that are assigned to Identifiers.
+Example: 
+   int a=17;
+Here int is keyword, a is identifier ,17 is literal.
